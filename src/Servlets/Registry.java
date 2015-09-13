@@ -60,7 +60,8 @@ public class Registry extends HttpServlet {
             e.printStackTrace();
         }
         out.println("<html><body><h1>Success registration</h1></body></html>");
-
+        out.flush();
+        out.close();
 
     }
 }
