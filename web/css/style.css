@@ -1,0 +1,14 @@
+.header-panel{
+    color:rgb(204, 204, 255);
+    text-align:center;
+    font-size: xx-large;
+    margin:20px;
+    padding:15px;
+}
+.form-horizontal{
+    text-align:center;
+}
+.under-header{
+    text-align:center;
+    color:rgb(204, 204, 255);
+}
