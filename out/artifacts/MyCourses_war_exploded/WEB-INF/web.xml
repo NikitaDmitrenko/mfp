@@ -7,11 +7,19 @@
         <welcome-file>Registry.jsp</welcome-file>
     </welcome-file-list>
     <servlet>
-        <servlet-name>Registry</servlet-name>
-        <servlet-class>Servlets.Registry</servlet-class>
+        <servlet-name>Regs</servlet-name>
+        <servlet-class>Servlets.Reg</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Registry</servlet-name>
-        <url-pattern>/Registry</url-pattern>
+        <servlet-name>Regs</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>validate</servlet-name>
+        <servlet-class>Servlets.validate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validate</servlet-name>
+        <url-pattern>/validate</url-pattern>
     </servlet-mapping>
 </web-app>
